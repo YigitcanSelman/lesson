@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+    width: 960px;
+    height: 600px;
+    background: rgb(214, 213, 170);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header#banner{
+width: 940px;
+height: 100px;
+background: rgb(163, 52, 0);
+margin:  10px;}

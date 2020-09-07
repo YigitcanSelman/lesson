@@ -1,16 +1,72 @@
 @charset "utf-8";
 /* CSS Document */
 
-#container{
-    width: 960px;
-    height: 600px;
+#container {
+    width     : 960px;
+    height    : 700px;
     background: rgb(214, 213, 170);
-    margin: 0 auto;
-    padding: 10px;
+    margin    : 0 auto;
+    padding   : 10px;
 }
 
-header#banner{
-width: 940px;
-height: 100px;
-background: rgb(163, 52, 0);
-margin:  10px;}
+header#banner {
+    width     : 940px;
+    height    : 100px;
+    background: rgb(163, 52, 0);
+    margin    : 10px;
+}
+
+nav {
+    width     : 150px;
+    height    : 350px;
+    margin    : 10px;
+    background: yellow;
+    float     : left;
+}
+
+section {
+    width      : 550px;
+    height     : 450px;
+    margin     : 10px;
+    background : rgb(206, 180, 180);
+    float      : left;
+    padding-top: 10px;
+}
+
+aside {
+    width     : 150px;
+    height    : 350px;
+    margin    : 10px;
+    background: yellow;
+    float     : left;
+}
+
+footer#sitesonu {
+    width     : 940px;
+    height    : 80px;
+    margin    : 10px;
+    background: rgb(158, 80, 231);
+    float     : left;
+}
+
+header#makale {
+    width     : 450px;
+    margin    : 0 auto;
+    height    : 50px;
+    background: tomato;
+}
+
+article.makale {
+    width     : 450px;
+    height    : 200px;
+    background: rgb(185, 54, 146);
+    margin    : 10px auto;
+    
+}
+
+footer#msonu{
+width: 450px;
+height: 80px;
+background: blue;
+margin: 10px auto;
+}

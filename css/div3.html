@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        div#kapsayici {
+            width: 900px;
+            background: rgb(67, 65, 180);
+            height: auto;
+            margin: auto;
+            position: relative;
+        }
+
+        div.kutu {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            /* position: absolute la divler birbirinden bağımsız hale gelir
+            position: relative le birbirlerine bağlıdırlar,
+            z-index le hangi div in önde olduğu ayarlanabilir
+            position: sticky; nesnelerin belli bir noktada tutunmasını sağlar
+            position: fixed olan nesneler sayfanın istenildiği yerine çakılmasını
+            sağlar */
+        }
+
+        div#kutu1 {
+            background: lawngreen;
+            position: fixed;
+            z-index: 2;
+            left: 400px;
+            top: 300px;
+            
+        }
+
+        div#kutu2 {
+            background: rgb(240, 21, 112);
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        div#kutu3 {
+            background: rgb(102, 50, 170);
+            float: left;
+            margin: 100px 0 0 0;
+            top: 0px;
+            position: sticky;
+            overflow: hidden;
+            }
+    </style>
+
+</head>
+
+<body>
+    <div id="kapsayici">
+        <div id="kutu1" class="kutu"></div>
+        <div id="kutu2" class="kutu"></div>
+        <div id="kutu3" class="kutu">sasda
+            asd
+            asda
+            asdasdasd
+            asdasdsadasd
+            sdsdsds
+            dsdsdsdsd
+            sdsdsdsfsdg
+            sh
+            ssadasdasd
+
+        </div>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+        <p>asda</p>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+nav {
+    margin : 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding   : 0;
+}
+
+nav ul li {
+    display: block;
+   width: 150px;
+}
+
+nav ul li a {
+    display        : block;
+    padding        : 20px 15px;
+    background     : lightseagreen;
+    color          : maroon;
+    text-decoration: none;
+    font-family    : Arial, Helvetica, sans-serif;
+    font-size      : larger;
+    width: 150px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: rgb(171, 231, 241);
+    color     : blueviolet;
+    transition-duration: 0.5s;
+}
+
+nav ul li ul {
+    display : none;
+    position: absolute;
+    width   : 150px;
+    margin: -63px 180px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width  : 150px;
+}
+
+nav ul li ul li a {
+    display: block;
+    width  : 150px;
+    text-align: left;
+}
+.solust{border-top-left-radius:150px }
+.sagust{border-bottom-right-radius:150px}
